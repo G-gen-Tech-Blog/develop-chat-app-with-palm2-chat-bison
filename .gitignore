@@ -1,0 +1,5 @@
+.gcloudignore
+__pycache__
+credentials
+_README.md
+venv
