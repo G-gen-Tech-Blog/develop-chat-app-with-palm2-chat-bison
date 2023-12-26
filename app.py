@@ -40,7 +40,7 @@ async def endpoint(req: Request):
 # VertexAIを初期化
 vertexai.init(project=PROJECT_ID, location=RESOURCE_LOCATION)
 
-chat_model = ChatModel.from_pretrained("chat-bison")
+chat_model = ChatModel.from_pretrained("chat-bison@001")
 text_model = TextGenerationModel.from_pretrained("text-bison")
 PARAMETERS = {
     "max_output_tokens": 500,
