@@ -13,7 +13,7 @@
 
 1. Cloud Shellでこのリポジトリをクローンします。
    ```
-   git clone https://github.com/G-gen-Tech-Blog/using-palm2-with-slack-chat-bot.git
+   git clone https://github.com/G-gen-Tech-Blog/develop-chat-app-with-palm2-chat-bison.git
    ```
 
 2. `gcloud app deploy` コマンドでデプロイします。
